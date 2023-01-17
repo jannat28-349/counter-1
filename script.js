@@ -13,6 +13,12 @@ function increment() {
   setCount();
   if(count > 10) {
     alert("Stop Stop! Count value is greater than ten!")
+    
+  if(count > 10) {
+    alert("Stop Stop! Count value is greater than ten!")
+
+  if (count > 10) {
+    alert("Stoppppppppppp");
   }
 }
 
