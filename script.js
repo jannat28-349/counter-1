@@ -6,6 +6,7 @@ function setGrade() {
   document.getElementById("output").innerText = `Your grade is: ${grade}`;
 }
 
+ grade-calculator
 function gradeCalculate() {
   marks = document.querySelector("#marks").value;
   if(marks<0 || marks>100) {
