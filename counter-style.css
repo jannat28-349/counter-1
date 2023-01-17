@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+h1 {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(240, 182, 182);
+    /* text-align: center; */
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(240, 182, 182);
+    transition: all 0.2s;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+button:active {
+    opacity: 0.9;
+}
+
+#output {
+    font-size: large;
+    font-weight: bold;
+}

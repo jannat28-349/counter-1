@@ -1,7 +1,7 @@
 let count = 0;
 
 function setCount() {
-  document.getElementById("output").innerText = count;
+  document.getElementById("output").innerText = `Count Value: ${count}`;
 }
 
 function setInitialCount() {
@@ -11,6 +11,9 @@ function setInitialCount() {
 function increment() {
   count++;
   setCount();
+  if(count > 10) {
+    alert("Stop Stop! Count value is greater than ten!")
+  }
 }
 
 setInitialCount();
