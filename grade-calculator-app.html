@@ -5,19 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grade Calculator</title>
+  <title>Build List</title>
 </head>
 
 <body>
-  <h1>GRADE CALCULATOR</h1>
   <div>
-    <h3>Enter your marks</h3>
-    <input id="marks" placeholder="Enter your marks" type="text">
-    <button onclick="gradeCalculate()">Submit</button>
+    <input type="text" id="item">
+    <button id="add-btn" onclick="addElement()">Add</button>
   </div>
-  <div>
-    <p id="output"></p>
-  </div>
+  <div id="list"></div>
 
   <script src="./script.js"></script>
 </body>
